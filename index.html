@@ -2,16 +2,56 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Hola Mundo</title>
+  <title>Inspiración Italiana</title>
   <style>
-    h1 {
-      font-size: 80px;
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fdfaf6;
+      color: #2c1a1d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 2px solid #a20000;
+      padding: 40px;
+      border-radius: 15px;
       text-align: center;
-      margin-top: 20%;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #a20000;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+      font-style: italic;
+    }
+
+    .credit {
+      margin-top: 20px;
+      font-size: 0.8em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1>Hola Mundo</h1>
+  <div class="container">
+    <h1>"La cocina italiana no es solo comida, es amor servido en plato."</h1>
+    <p>— Sabores que abrazan el alma 🇮🇹</p>
+    <div class="credit">Imagen: Unsplash</div>
+  </div>
 </body>
 </html>
